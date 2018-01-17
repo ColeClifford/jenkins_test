@@ -16,5 +16,9 @@ class TestStringMethods(unittest.TestCase):
         with self.assertRaises(TypeError):
             s.split(2)
 
+    def test_nothing_but_jenkins_trigger(self):
+        self.assertTrue(1 == 1)
+
+
 if __name__ == '__main__':
     unittest.main()
